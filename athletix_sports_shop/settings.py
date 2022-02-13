@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-(%&k=kttla9c^317yu$$k(g4-h0li*!hc(*^a7ob=x#0chr-u7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['https://athletixsportsshop.herokuapp.com', 'localhost', '127.0.0.1:8000', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
